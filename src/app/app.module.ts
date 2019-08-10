@@ -14,7 +14,7 @@ import { ShellModule } from './shell/shell.module';
 import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NbThemeModule, NbAlertModule } from '@nebular/theme';
+import { NbThemeModule, NbAlertModule, NbLayoutModule } from '@nebular/theme';
 import { NbSecurityModule } from '@nebular/security';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 @NgModule({
@@ -26,6 +26,7 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
     TranslateModule.forRoot(),
     NbThemeModule.forRoot(),
     NbSecurityModule.forRoot(),
+    // NbLayoutModule.forRoot(),
     NbEvaIconsModule,
     NgbModule,
     CoreModule,
